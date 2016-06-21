@@ -1,0 +1,101 @@
+.item-section {
+	font-size: 12px;
+	background-color: #ee0a3b;
+}
+/* 根据flexible框架中对设备dpr的设置，要求字体大小单位为px,其内容也会动态适配; */
+[data-dpr="2"] .item-section {
+	font-size:24px;
+}
+[data-dpr="3"] .item-section {
+	font-size:36px;
+}
+.top{
+	text-align: center;
+	background-color: #ee0a3b; 
+}
+.tu{
+	width: 10rem;
+}
+.content{
+	display: table;
+	  height: 100px;
+	  margin: 10px auto;
+	  width: 10rem;
+}
+.left{
+	width: 4rem;
+    border: 1px solid green;
+    background-color: #5FF579;
+    display: table-cell;
+
+}
+.right{
+	width: 14rem;
+    border: 1px solid #D01D0B;
+    background-color: #9DC523;
+    display: table-cell;
+}
+.clear{
+	zoom:1;
+}
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#news-wrap-box {
+ width: 10rem;
+  margin: 0 auto;
+}
+.news-list{
+	width: 100%;
+  background: #fff;
+}
+h2.h2-title {
+  height: 0.833rem;
+  line-height: 0.833rem;
+  color: #101010;
+  font-size: 15px;
+  padding-left: 0.347rem;
+  font-weight: normal;
+   background-color: #b6b6b6;
+}
+.news-list ul li {
+  position: relative;
+  width: 10rem;
+  border-bottom: 1px solid #e0e0e2;
+}
+.news-list ul li img.pic {
+  width: 2.083rem;
+  height: 1.389rem;
+  display: block;
+  float: left;
+  margin: 0.139rem 0.333rem;
+}
+.news-list ul li .text-box {
+  width: 70%;
+  padding-top: 0.139rem;
+  float: left;
+}
+.news-list ul li .text-box .title {
+  color: #101010;
+  font-size: 15px;
+  padding: 0.139rem 0px 0.278rem 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+.news-list ul li .text-box .info {
+  color: #b6b6b6;
+  font-size: 12px;
+  padding-bottom: 0.139rem;
+}
+.news-list ul li .money {
+  position: absolute;
+  right: 0.333rem;
+  top: 1.00rem;
+  font-size: 15px;
+  color: #4db854;
+  font-weight: 700px;
+}
